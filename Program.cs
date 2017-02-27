@@ -19,8 +19,10 @@ namespace aspnetcore_console
             }
 
             var loggerFactory = provider.GetService<ILoggerFactory>();
+        
             var logger = loggerFactory.AddConsole(LogLevel.Debug).CreateLogger<Program>();
             logger.LogDebug("Hello ASP.NET Core World");
+            
 
             Container container = new Container();
             
