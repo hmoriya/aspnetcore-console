@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using StructureMap;
 
 namespace aspnetcore_console
 {
@@ -21,6 +22,7 @@ namespace aspnetcore_console
             var logger = loggerFactory.AddConsole(LogLevel.Debug).CreateLogger<Program>();
             logger.LogDebug("Hello ASP.NET Core World");
 
+            Container container = new Container();
             
             Console.WriteLine("Hello World!");
         }
