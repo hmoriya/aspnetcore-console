@@ -1,0 +1,8 @@
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/bin/Debug/netcoreapp1.0/aspnetcore-console.deps.json
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/bin/Debug/netcoreapp1.0/aspnetcore-console.runtimeconfig.json
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/bin/Debug/netcoreapp1.0/aspnetcore-console.runtimeconfig.dev.json
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/bin/Debug/netcoreapp1.0/aspnetcore-console.dll
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/bin/Debug/netcoreapp1.0/aspnetcore-console.pdb
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/obj/Debug/netcoreapp1.0/aspnetcore-console.AssemblyInfo.cs
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/obj/Debug/netcoreapp1.0/aspnetcore-console.dll
+/Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/obj/Debug/netcoreapp1.0/aspnetcore-console.pdb
