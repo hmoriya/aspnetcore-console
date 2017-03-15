@@ -48,7 +48,7 @@ dotnet add package Microsoft.EntityFrameworkCore.SQLite
 
 ## scaffold a migration to create the initial set of tables
 '''
-dotnet ef migrations add MyFirstMigration
+dotnet ef migrations add InitialMigratin
 dotnet ef database update
 ```
 
