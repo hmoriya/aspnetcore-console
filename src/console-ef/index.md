@@ -12,7 +12,7 @@ dotnet new console
 ```
 dotnet add package Microsoft.EntityFrameworkCore.Design
 ```
-ontains all the design-time logic for Entity Framework Core. It's the code that all of the various tools (PMC cmdlets like Add-Migration, dotnet ef & ef.exe) call into.
+contains all the design-time logic for Entity Framework Core. It's the code that all of the various tools (PMC cmdlets like Add-Migration, dotnet ef & ef.exe) call into.
 
 ## Add Package for SQLite
 ```
@@ -28,7 +28,7 @@ dotnet add package Microsoft.EntityFrameworkCore.SQLite
 </ItemGroup>
 ```
 
-##.csproj
+## .csproj
 
 ```
 <Project Sdk="Microsoft.NET.Sdk">
@@ -47,7 +47,7 @@ dotnet add package Microsoft.EntityFrameworkCore.SQLite
 ```
 
 ## scaffold a migration to create the initial set of tables
-'''
+```
 dotnet ef migrations add InitialMigratin
 dotnet ef database update
 ```
