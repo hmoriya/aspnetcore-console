@@ -12,10 +12,13 @@ namespace console_log
             serviceCollection.AddLogging();
             var serviceProvider = serviceCollection.BuildServiceProvider();
             var factory = serviceProvider.GetService<ILoggerFactory>();
-            factory.AddConsole();
+            factory
+                .AddConsole()
+                .AddDebug();
 
             var logger = factory.CreateLogger<Program>();
             logger.LogError("test");
+            logger.LogDebug("Debug Test");
 
             Console.ReadLine();
 

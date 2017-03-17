@@ -15,5 +15,5 @@ dotnet add package Microsoft.Extensions.DependencyInjection
 ```
 dotnet add package Microsoft.Extensions.Logging
 dotnet add package Microsoft.Extensions.Logging.Console
+dotnet add package Microsoft.Extensions.Logging.Debug
 ```
-
