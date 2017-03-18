@@ -1,0 +1,1 @@
+2017-03-18 21:32:55.667 +09:00 [Information] This will be written to disk on the worker thread

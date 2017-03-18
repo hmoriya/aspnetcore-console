@@ -18,7 +18,7 @@ namespace console_log
 
             var logger = factory.CreateLogger<Program>();
             logger.LogError("test");
-            logger.LogDebug("Debug Test");
+            logger.LogInformation()
 
             Console.ReadLine();
 
