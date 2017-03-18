@@ -1,0 +1,5 @@
+2017-03-18 21:05:59.154 +09:00 [Information] Hello, world!
+2017-03-18 21:05:59.246 +09:00 [Debug] Dividing 10 by 0
+2017-03-18 21:05:59.253 +09:00 [Error] Something went wrong
+System.DivideByZeroException: Attempted to divide by zero.
+   at console_serilog.Program.Main(String[] args) in /Users/hmoriya/Develop/github/hmoriya/aspnetcore-console/src/console-serilog/Program.cs:line 22
